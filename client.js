@@ -41,7 +41,7 @@ function init(bundle, parent, options = {}) {
   );
   cylinderSurface.setAngle(Math.PI, 0);
   r360.renderToSurface(
-    r360.createRoot('Info', { name: 'Cylinder' }),
+    r360.createRoot('Info', { name: 'Cylinder htyhty hyh tyht yht yhtyhyuhyh uyu' }),
     cylinderSurface,
   );
 
@@ -53,17 +53,17 @@ function init(bundle, parent, options = {}) {
   );
   cubeSurface.setAngle(-1 * Math.PI / 2, 0);
   r360.renderToSurface(
-    r360.createRoot('Info', { name: 'Cube' }),
+    r360.createRoot('Info', { name: 'Cube t btybtybt ybny bybybty bty yth yth' }),
     cubeSurface,
   );
 
   // 3D SPHERE
-  r360.renderToLocation(
-    r360.createRoot('Sphere'),
-    r360.getDefaultLocation(),
-  );
+  // r360.renderToLocation(
+  //   r360.createRoot('Sphere'),
+  //   r360.getDefaultLocation(),
+  // );
 
-  r360.compositor.setBackground(r360.getAssetURL('3d_scene.jpg'));
+  r360.compositor.setBackground(r360.getAssetURL('leadMe.jpg'));
 }
 
 window.React360 = {init};

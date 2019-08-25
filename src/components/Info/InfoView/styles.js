@@ -9,14 +9,14 @@ export default StyleSheet.create({
     justifyContent: 'space-around',
   },
   rootText: {
-    color: 'black',
-    fontSize: 60,
+    color: 'white',
+    fontSize: 30,
     fontWeight: 'bold',
   },
   rootButton: {
-    width: 100,
-    height: 100,
-    borderRadius: 100 / 2,
+    width: 50,
+    height: 50,
+    borderRadius: 50 / 2,
     borderWidth: 0,
   }
 });
