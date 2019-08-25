@@ -41,7 +41,7 @@ function init(bundle, parent, options = {}) {
   );
   cylinderSurface.setAngle(Math.PI, 0);
   r360.renderToSurface(
-    r360.createRoot('Info', { name: 'Cylinder htyhty hyh tyht yht yhtyhyuhyh uyu' }),
+    r360.createRoot('Info', { name: 'Cylinder htyhty hyh tyht yht yhtyhyuhyh' }),
     cylinderSurface,
   );
 

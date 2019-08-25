@@ -13,6 +13,16 @@ export default StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
   },
+  greetingBox: {
+    backgroundColor: "rgba(255, 255, 255, 0.3)",
+    borderColor: "#639dda",
+    borderRadius: 20,
+  },
+  greeting: {
+    fontSize: 30,
+    backgroundColor: "rgba(255, 255, 255, 0.3)",
+    borderColor: "#639dda",
+  },
   rootButton: {
     width: 50,
     height: 50,
